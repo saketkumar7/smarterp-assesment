@@ -1,0 +1,150 @@
+input,textarea{
+    outline: none;
+}
+/*=======SearchComponent Starts Here============*/
+#searchbar{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+#searchbar .search-icon{
+    color: rgb(39, 37, 37) !important;
+    position: absolute;
+    top: 23px;
+    left: 334px;
+}
+#searchbar .cancel{
+    color: rgb(39, 37, 37) !important;
+    position: absolute;
+    top: 23px;
+    right: 334px;
+}
+#searchbar input{
+    border-color: white;
+    padding: 10px 0px 10px 55px;
+    border-radius: 10px;
+    width: 690px;
+    font-size: 16px;
+    outline: none;
+}
+i{
+    color: green !important;
+}
+.search{
+    padding: 10px 150px;
+}
+#searchbar ::placeholder{
+    color: #cccccc;
+}
+
+/*=======SearchComponent Ends Here============*/
+
+/*=======MenuComponent Starts Here============*/
+#menu{
+    display: flex;
+    justify-content: center ;
+}
+#menu button{
+    padding:10px 30px;
+}
+#menu Link{
+    text-decoration: none;
+    color: #ff8300;
+}
+/*=======MenuComponent Ends Here============*/
+
+/*=======Postomponent Starts Here============*/
+.post {
+    background-color: #fff;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    width:640px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 28px 55px 10px;
+    margin: 0 auto;
+    height: 440px;
+}
+
+.post .title, .post .textarea{
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 30px;
+}
+.post label{
+    font-size: 18px;
+    color: #333;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-right: 30px;
+    white-space: nowrap;
+}
+.post input,.post textarea{
+    font-weight: 700;
+    font-size: 18px;
+    padding: 15px 0;
+    color: rgb(39, 37, 37);
+    border: none;
+    width: 100%;
+    
+}
+.post ::placeholder{
+    color: #cccccc;
+}
+.post button{
+    display: block;
+    margin-top: 32px;
+    width: 100%;
+    border: none;
+    line-height: 50px;
+    font-family: inherit;
+    background: #ff8300;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 0.4s ease;
+    outline: none;
+}
+/*=======PostComponent Ends Here============*/
+
+/*=======PublishComponent starts Here============*/
+.publish{
+    background-color: #fff;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    width:640px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 28px 55px 10px;
+    margin: 0 auto;
+    min-height: 400px;      
+}
+/*=======PublishComponent Ends Here============*/
+.menu{
+    margin: 0 auto;
+    background-color: #fff;
+    width:640px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px 55px 20px;
+}
+.menu label{
+    font-size: 18px;
+    color: #333;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-right: 30px;
+    white-space: nowrap;
+}
+.menu .one{
+    text-decoration: none;
+    color: #ff8300;
+}
+.menu .one:hover{
+    color: #ff8300;
+}
+.menu .two{
+    text-decoration: none;
+    color: rgba(85, 85, 85, 0.6);
+}
+.menu .two:hover{
+    color: #ff8300;
+}
